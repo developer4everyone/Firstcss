@@ -1,0 +1,97 @@
+body{
+	margin:0 auto;
+	padding:15px 15px;
+}
+header{
+	text-align:center;
+	height: 200px;
+	background-image: url(../images/flywheel.jpg);
+	background-size: cover;
+}
+aside{
+	float:left;
+	background-color:#886C1F;
+	padding:0px 10px 50px 10px;
+	margin:0px 10px 0px 0px; 
+	height:100%;
+}
+img{
+	display:block;
+	width:150px;
+	height:100px;
+	margin:35px;
+	border-color:#000;
+	border-style:solid; 
+}
+h1{
+	text-transform:uppercase;
+	color: #FFFFFF;
+}
+h2{
+	margin:auto;
+}
+nav a{
+	color:#000;
+	text-decoration: none;
+	background-color:rgba(245,245,245,0.5);
+	padding:15px 45px;
+	margin:2px 10px;
+	border-radius:5px;
+	border-style:none;
+
+}
+.active
+{
+	background-color:rgb(255,255,255) 
+}
+li{
+	margin-left:255px;
+	
+}
+table {
+	    border-collapse: collapse;
+   		width: 500px;
+   		font-family: "Times New Roman", Times, serif;
+   		font-weight: bold;
+	}
+table,th,td{
+	padding: 1%; 
+}
+th{
+	color: Orange;
+	background-color : #008000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-style:solid;
+	border-bottom-color: #0000FF;
+	background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/03/olive-green-parchment-paper-texture.jpg');
+   		background-repeat: no-repeat;
+	}
+th{
+	text-align: center;
+}
+tr th:first-child, tr td:first-child {
+		text-align: left;
+	}
+
+td{
+	background-color: #808080;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	opacity: 0.8;
+	border-radius: 2px;
+	text-align: center;
+}
+td:nth-child(2){
+	text-align: center;
+}
+td:nth-child(3){
+	text-align: center;
+}
+tr:hover {
+       opacity: 2.5;
+       background-color: #ffff99;
+       text-shadow: 2px 2px #FF69B4;
+}
+
